@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  font-family: var(--ff);
+  color: white;
+}
+
+.thanks-container {
+  background: linear-gradient(var(--dark-blue), var(--very-dark-blue));
+  width: 90%;
+  height: auto;
+  margin-top: 9rem;
+  margin-left: 1.2rem;
+  border-radius: 1rem;
+}
+
+.thanks-logo {
+  height: auto;
+  transform: translate(40%, 0);
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+.rating-para {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 76%, 62%);
+  width: 46%;
+  text-align: center;
+  border-radius: 2rem;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: inherit;
+}
+
+.thanks-para {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 82%;
+  padding: 0.5rem;
+  line-height: 1.5;
+  color: var(--light-grey);
+  font-size: var(--fs);
+  font-family: inherit;
+}
+
+.home-link {
+  margin-left: 9.5rem;
+  font-size: 0.8rem;
+}
+
+.home-link:hover {
+  color: hsl(25, 97%, 53%);
+}
+
+@media (max-width: 375px) and (max-width: 1600px) {
+
+  .thanks-container {
+    width: 20rem;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  .attribution {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  }
+}
+
