@@ -1,15 +1,18 @@
 body {
   background-color: black;
   font-family: var(--ff);
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 
 .thanks-container {
   background: linear-gradient(var(--dark-blue), var(--very-dark-blue));
+  justify-content: center;
+  place-items: center;
   width: 90%;
   height: auto;
-  margin-top: 9rem;
-  margin-left: 1.2rem;
+  margin-left: 36rem;
   border-radius: 1rem;
 }
 
@@ -57,17 +60,16 @@ h2 {
   color: hsl(25, 97%, 53%);
 }
 
-@media (max-width: 375px) and (max-width: 1600px) {
+@media (min-width: 375px) and (max-width: 1600px) {
 
   .thanks-container {
-    width: 20rem;
+    width: 23rem;
     height: auto;
     margin-top: 5rem;
   }
 
   .attribution {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
   }
